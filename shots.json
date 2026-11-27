@@ -1,0 +1,22 @@
+[
+  {
+    "file": "1-cover-grid.png",
+    "path": "#/",
+    "viewport": { "width": 1280, "height": 800 }
+  },
+  {
+    "file": "2-deal-detail.png",
+    "path": "#/deal/hisense-98-qd5",
+    "viewport": { "width": 1280, "height": 800 }
+  },
+  {
+    "file": "3-filtered.png",
+    "path": "#/?category=TVs",
+    "viewport": { "width": 1280, "height": 800 }
+  },
+  {
+    "file": "4-phone.png",
+    "path": "#/",
+    "viewport": { "width": 390, "height": 844 }
+  }
+]
