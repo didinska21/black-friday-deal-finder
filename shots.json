@@ -5,17 +5,17 @@
     "viewport": { "width": 1280, "height": 800 }
   },
   {
-    "file": "2-gaming-grid.png",
+    "file": "2-gaming-grid.jpg",
     "path": "#/?category=Gaming",
     "viewport": { "width": 1280, "height": 800 }
   },
   {
-    "file": "3-filtered.png",
+    "file": "3-filtered.jpg",
     "path": "#/?category=TVs",
     "viewport": { "width": 1280, "height": 800 }
   },
   {
-    "file": "4-phone.png",
+    "file": "4-phone.jpg",
     "path": "#/",
     "viewport": { "width": 390, "height": 844 }
   }

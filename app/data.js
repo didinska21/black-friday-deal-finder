@@ -102,6 +102,7 @@ export const deals = [
   },
   {
     id: 'tcl-65-s4cf',
+    image: 'images/tcl-65-s4cf.jpg',
     title: 'TCL 65-inch S4CF 4K Fire TV',
     store: 'Best Buy', category: 'TVs', price: 229.99, was: 469.99,
     verdict: 'TRUE LOW',
@@ -123,6 +124,7 @@ export const deals = [
   },
   {
     id: 'lg-c6-65-oled',
+    image: 'images/lg-c6-65-oled.jpg',
     title: 'LG C6 65-inch OLED TV',
     store: 'Best Buy', category: 'TVs', price: 1399.99, was: 2699.99,
     verdict: 'STRONG DEAL',
@@ -133,6 +135,7 @@ export const deals = [
   },
   {
     id: 'samsung-s90h-65',
+    image: 'images/samsung-s90h-65.jpg',
     title: 'Samsung 65-inch S90H OLED TV',
     store: 'Best Buy', category: 'TVs', price: 1400, was: 2700,
     verdict: 'STRONG DEAL',
@@ -143,6 +146,7 @@ export const deals = [
   },
   {
     id: 'lg-c6-55-oled',
+    image: 'images/lg-c6-55-oled.jpg',
     title: 'LG C6 55-inch OLED TV',
     store: 'Best Buy', category: 'TVs', price: 999.99, was: 1999.99,
     verdict: 'STRONG DEAL',
@@ -153,6 +157,7 @@ export const deals = [
   },
   {
     id: 'hisense-75-h5r1',
+    image: 'images/hisense-75-h5r1.jpg',
     title: 'Hisense 75-inch H5R1 4K Roku TV',
     store: 'Walmart', category: 'TVs', price: 328, was: 668,
     verdict: 'STRONG DEAL',
@@ -163,6 +168,7 @@ export const deals = [
   },
   {
     id: 'samsung-s84h-65',
+    image: 'images/samsung-s84h-65.jpg',
     title: 'Samsung 65-inch S84H OLED TV',
     store: 'Best Buy', category: 'TVs', price: 999.99, was: 2099.99,
     verdict: 'STRONG DEAL',
@@ -173,6 +179,7 @@ export const deals = [
   },
   {
     id: 'lg-c6-48-oled',
+    image: 'images/lg-c6-48-oled.jpg',
     title: 'LG C6 48-inch OLED TV',
     store: 'Newegg', category: 'TVs', price: 1099.99, was: 1599.99,
     verdict: 'STRONG DEAL',
@@ -184,6 +191,7 @@ export const deals = [
   },
   {
     id: 'switch2-mario-kart',
+    image: 'images/switch2-mario-kart.jpg',
     title: 'Nintendo Switch 2 + Mario Kart World bundle',
     store: 'Best Buy', category: 'Gaming', price: 499.99, was: 549.99,
     verdict: 'ROUTINE SALE',
@@ -195,6 +203,7 @@ export const deals = [
   },
   {
     id: 'dualsense',
+    image: 'images/dualsense.jpg',
     title: 'Sony DualSense Wireless Controller',
     store: 'Amazon', category: 'Gaming', price: 54, was: 74.99,
     verdict: 'STRONG DEAL',
@@ -205,6 +214,7 @@ export const deals = [
   },
   {
     id: 'donkey-kong-bananza',
+    image: 'images/donkey-kong-bananza.jpg',
     title: 'Donkey Kong Bananza (Nintendo Switch 2)',
     store: 'Walmart', category: 'Gaming', price: 49.99, was: 69.99,
     verdict: 'STRONG DEAL',
@@ -216,6 +226,7 @@ export const deals = [
   },
   {
     id: 'zelda-oot',
+    image: 'images/zelda-oot.jpg',
     title: 'The Legend of Zelda: Ocarina of Time (Digital)',
     store: 'Amazon', category: 'Gaming', price: 54.99, was: 59.99,
     verdict: 'ROUTINE SALE',
@@ -226,6 +237,7 @@ export const deals = [
   },
   {
     id: 'wwe-arcade',
+    image: 'images/wwe-arcade.jpg',
     title: 'Arcade Classics WWE Arcade Cabinet',
     store: 'Walmart', category: 'Gaming', price: 399.99, was: 449.99,
     verdict: 'ROUTINE SALE',
@@ -236,6 +248,7 @@ export const deals = [
   },
   {
     id: 'belkin-switch2-case',
+    image: 'images/belkin-switch2-case.jpg',
     title: 'Belkin Switch 2 Charging Case Pro',
     store: 'Amazon', category: 'Gaming', price: 84.99, was: 99.99,
     verdict: 'ROUTINE SALE',
