@@ -28,6 +28,7 @@ function dealNotes(deal) {
 
 export function cardMarkup(deal) {
   return `<article class="deal-card" data-deal-id="${htmlText(deal.id)}">
+    ${deal.image ? `<img class="card-image" src="${htmlText(deal.image)}" alt="">` : ''}
     <div class="card-top"><span class="store-name">${htmlText(deal.store)} <span class="card-category">/ ${htmlText(deal.category)}</span></span><span class="discount-badge">${deal.discount}% OFF</span></div>
     <h3><a href="#/deal/${encodeURIComponent(deal.id)}">${htmlText(deal.title)}</a></h3>
     <div class="card-prices"><strong class="price">${priceText(deal, deal.price)}</strong><span class="usual">usual <s>${priceText(deal, deal.was)}</s></span></div>
@@ -76,6 +77,7 @@ export function listMarkup(model) {
   <section class="hero-strip" aria-label="Featured deal">
     <div class="hero-discount"><strong>${featured.discount}<span>%</span></strong><span>OFF THE USUAL PRICE</span></div>
     <div class="hero-product"><div class="eyebrow">THE BIG FIND <span class="hero-divider">/</span> ${htmlText(featured.store)}</div><h2><a href="#/deal/${featured.id}">${htmlText(featured.title)}</a></h2><p>${verdictBadge(featured)}<span>Save ${dollars(featured.saving)} · Checked <time datetime="${featured.checked}">27 Nov 2026</time></span></p></div>
+    ${featured.image ? `<img class="hero-image" src="${htmlText(featured.image)}" alt="">` : ''}
     <div class="hero-price"><strong>${dollars(featured.price)}</strong><span>was <s>${dollars(featured.was)}</s></span></div>
     <a class="hero-arrow" href="#/deal/${featured.id}" aria-label="See the Hisense 98-inch TV deal">↗</a>
   </section>
@@ -100,6 +102,7 @@ export function detailMarkup(deal, backHash) {
   <article class="deal-detail" data-deal-id="${deal.id}">
     <div class="detail-main">
       <div class="eyebrow">${htmlText(deal.category)} <span class="hero-divider">/</span> ${htmlText(deal.store)}</div>
+      ${deal.image ? `<img class="detail-image" src="${htmlText(deal.image)}" alt="">` : ''}
       <h1>${htmlText(deal.title)}</h1>
       <div class="detail-verdict">${verdictBadge(deal)}<p>${htmlText(deal.evidence)}</p></div>
       <div class="detail-conditions"><h2>Before you buy</h2>${dealNotes(deal) || '<p>No extra code or condition is listed in the cited report.</p>'}<p>Check the matching model, final price, and availability at the store. Store search results may include other versions.</p></div>

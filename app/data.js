@@ -112,6 +112,7 @@ export const deals = [
   },
   {
     id: 'hisense-98-qd5',
+    image: 'images/hisense-98-qd5.jpg',
     title: 'Hisense 98-inch QD5 Hi-QLED 4K TV',
     store: 'Best Buy', category: 'TVs', price: 799.99, was: 2499.99,
     verdict: 'TRUE LOW',
@@ -255,6 +256,7 @@ export const deals = [
   },
   {
     id: 'blink-outdoor4-bundle',
+    image: 'images/blink-outdoor4-bundle.jpg',
     title: 'Blink Outdoor 4 Camera + Battery Doorbell 2K+ bundle',
     store: 'Amazon', category: 'Smart Home', price: 66, was: 260,
     verdict: 'TRUE LOW',
@@ -528,6 +530,7 @@ export const deals = [
   },
   {
     id: 'michael-kors-bag',
+    image: 'images/michael-kors-bag.jpg',
     title: 'Michael Kors East West Chain Crossbody Bag',
     store: 'Walmart', category: 'Fashion', price: 65, was: 278,
     verdict: 'TRUE LOW',
@@ -549,6 +552,7 @@ export const deals = [
   },
   {
     id: 'paramount-plus',
+    image: 'images/paramount-plus.jpg',
     title: 'Paramount+ Premium',
     store: 'Paramount+', category: 'Streaming', price: 2.99, was: 13.99,
     verdict: 'TRUE LOW',

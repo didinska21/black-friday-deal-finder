@@ -1,12 +1,12 @@
 [
   {
-    "file": "1-cover-grid.png",
+    "file": "1-cover-grid.jpg",
     "path": "#/",
     "viewport": { "width": 1280, "height": 800 }
   },
   {
-    "file": "2-deal-detail.png",
-    "path": "#/deal/hisense-98-qd5",
+    "file": "2-gaming-grid.png",
+    "path": "#/?category=Gaming",
     "viewport": { "width": 1280, "height": 800 }
   },
   {
